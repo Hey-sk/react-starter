@@ -1,0 +1,17 @@
+a {
+    color: rgb(255, 255, 255);
+    &:visited {color: rgb(255, 255, 255);}
+    &:hover {color: rgb(255, 192, 203);}
+}
+
+
+.navbar {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 30px;
+    background-color: rgb(98, 81, 105);
+    color: rgb(195, 211, 189);
+    min-height: 3em;
+}
